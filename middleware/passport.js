@@ -1,9 +1,10 @@
 /* Imports */
+require("dotenv").config
+const JWT_SECRET = process.env.JWT_SECRET;
 const bcrypt = require("bcrypt");
 const LocalStrategy = require("passport-local");
 const JWTStrategy = require("passport-jwt").Strategy;
 const { fromAuthHeaderAsBearerToken } = require("passport-jwt").ExtractJwt;
-const { JWT_SECRET } = require("../config/keys");
 
 /* Models */
 const { User } = require("../db/models");
