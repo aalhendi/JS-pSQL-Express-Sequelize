@@ -1,4 +1,6 @@
 /* Imports */
+require("dotenv").config();
+const PORT = process.env.PORT;
 const express = require("express");
 const cors = require("cors");
 const passport = require("passport");
@@ -46,9 +48,9 @@ const run = async () => {
   try {
     await db.sequelize.sync({ alter: true });
     console.log("Connection to the database successful");
-    /* Listen @ port 8000 */
-    await app.listen(8000, () => {
-      console.log("The application is running on localhost:8000");
+    /* Listen @ port defined in .env */
+    await app.listen(PORT, () => {
+      console.log(`The application is running on localhost:${PORT}`);
     });
   } catch (error) {
     console.error("Error conencting to the database: ", error);
