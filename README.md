@@ -3,7 +3,9 @@
 ## Getting Started
 
 Copy the `.env.example` file to create a local file with enviroment variables `.env`. To do so, run the following command at the project root.
-`cp .env.example .env`\
+```bash
+cp .env.example .env
+```
 Don't forget to update the data in `.env`.
 
 ## Available Scripts
