@@ -1,5 +1,5 @@
 /* Imports */
-require("dotenv").config
+require("dotenv").config();
 const JWT_SECRET = process.env.JWT_SECRET;
 const bcrypt = require("bcrypt");
 const LocalStrategy = require("passport-local");
