@@ -1495,10 +1495,10 @@ sequelize-pool@^7.1.0:
   resolved "https://registry.yarnpkg.com/sequelize-pool/-/sequelize-pool-7.1.0.tgz#210b391af4002762f823188fd6ecfc7413020768"
   integrity sha512-G9c0qlIWQSK29pR/5U2JF5dDQeqqHRragoyahj/Nx4KOOQ3CPPfzxnfqFPCSB7x5UgjOgnZ61nSxz+fjDpRlJg==
 
-sequelize-slugify@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/sequelize-slugify/-/sequelize-slugify-1.6.1.tgz#09303bd50369f026b050816c677956f606af6391"
-  integrity sha512-oD6rqHeQrPH4SzggEsvKymuxT2LFTmTiQ9Lgc69bjSoO9AZ0dTYNjdzybQxdVa/SeBWBfKEKfOf8LOsWoHsQ8A==
+sequelize-slugify@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/sequelize-slugify/-/sequelize-slugify-1.6.2.tgz#143645d0d0cd49b40b4029b5067ccf1532d8008c"
+  integrity sha512-UP8FxBeBwo0rdXmJL59mf9YWaapeCxt01Y2n4plJkByUHoKtgjMTH6pcoFhBH+AzIgzzVHPAb8c1JDLgeE7qug==
   dependencies:
     sluglife "^0.9.8"
 
