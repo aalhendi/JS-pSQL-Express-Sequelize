@@ -1519,10 +1519,10 @@ sequelize-slugify@^1.6.2:
   dependencies:
     sluglife "^0.9.8"
 
-sequelize@^6.25.1:
-  version "6.25.1"
-  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-6.25.1.tgz#bc1af3a3ad441dce5f887f7096ca7d103c09fe5e"
-  integrity sha512-z2oNoGFhQ8FaDLPuL+UKYA4VXsIyd5pHO6LNSRbzIPuOEma8b2bSbLdde6JjeHeaTIrmIwInC7YF34wMHfcngg==
+sequelize@^6.27.0:
+  version "6.27.0"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-6.27.0.tgz#b267e76997df57842cc1e2c1c1d7e02405bcdb9c"
+  integrity sha512-Rm7BM8HQekeABup0KdtSHriu8ppJuHj2TJWCxvZtzU6j8V1LVnBk2rs38P8r4gMWgdLKs5NYoLC4il95KLsv0w==
   dependencies:
     "@types/debug" "^4.1.7"
     "@types/validator" "^13.7.1"
